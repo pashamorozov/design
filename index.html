@@ -1,84 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Дизайнерская мебель</title>
 </head>
 <body>
     <header class="page-header">
-        <a class="header-logo">
-            <img src="" alt="">
-        </a>
-        <nav class="main-navigation">
-            <ul class="navigation-list">
-                <li class="navigation-item">
-                    <a href="" class="navigation-link">МЕБЕЛЬ</a>
+        <div class="page-header__logo">
+            <img src="/images/logo.svg" alt="логотип" width="20" height="20">
+        </div>
+        <nav class="page-header__site-nav site-nav">
+            <ul class="site-nav__list">
+                <li class="site-nav__item">
+                    <a href="" class="site-nav__link">МЕБЕЛЬ</a>
                 </li>
-                <li class="navigation-item">
-
+                <li class="site-nav__item">
+                    <a href="" class="site-nav__link">МЕБЕЛЬ</a>
                 </li>
-                    <a href="" class="navigation-link">ОСВЕЩЕНИЕ</a>
-                </li>
-                <li class="navigation-item">
-
-                </li>
-                    <a href="" class="navigation-link">ТЕКСТИЛЬ</a>
+                <li class="site-nav__item">
+                    <a href="" class="site-nav__link">МЕБЕЛЬ</a>
                 </li>
             </ul>
         </nav>
-        <div class="shop-panel">
-            <ul class="shop-panel-list">
-                <li class="shop-panel-item"><a href=""></a></li>
-                <li class="shop-panel-item"><a href=""></a></li>
+        <div class="page-header__user-nav user-nav">
+            <ul class="user-nav__list">
+                <li class="user-nav__item"><a class="user-nav__link" href="">поиск</a></li>
+                <li class="user-nav__item"><a class="user-nav__link" href="">корзина</a></li>
             </ul>
         </div>
     </header>
 
     <main>
+        <h1>дизайнерская мебель</h1>
         <section class="hero">
-            <!--<div>-->
-            <h2 class="hero-title">ДИЗАЙНЕРСКАЯ МЕБЕЛЬ</h2>
-            <p class="hero-subtitle">Кресло "Антиква"</p>
-            <div class="hero-price">
-                <p class="hero-old-price">$380</p>
-                <p class="hero-new-price">$240</p>
+            <div class="swiper-container hero__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="product product--slider">
+                            <div class="product__info">
+                                <h2>Дизайнерская мебель</h2>
+                                <h3>Кресло “Антиква”</h3>
+                                <p>
+                                    <span>$380</span>
+                                    $240
+                                </p>
+                                <button type="button" class="product__button">Купить</button>
+                            </div>
+                            <div class="product__image">
+                                <img src="/images/slide1.jpg" alt="Кресло “Антиква”">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product product--slider">
+                            <div class="product__info">
+                                <h2>Дизайнерская мебель</h2>
+                                <h3>Кресло “Антиква”</h3>
+                                <p>
+                                    <span>$380</span>
+                                    $240
+                                </p>
+                                <button type="button" class="product__button">Купить</button>
+                            </div>
+                            <div class="product__image">
+                                <img src="/images/slide1.jpg" alt="Кресло “Антиква”">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product product--slider">
+                            <div class="product__info">
+                                <h2>Дизайнерская мебель</h2>
+                                <h3>Кресло “Антиква”</h3>
+                                <p>
+                                    <span>$380</span>
+                                    $240
+                                </p>
+                                <button type="button" class="product__button">Купить</button>
+                            </div>
+                            <div class="product__image">
+                                <img src="/images/slide1.jpg" alt="Кресло “Антиква”">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product product--slider">
+                            <div class="product__info">
+                                <h2>Дизайнерская мебель</h2>
+                                <h3>Кресло “Антиква”</h3>
+                                <p>
+                                    <span>$380</span>
+                                    $240
+                                </p>
+                                <button type="button" class="product__button">Купить</button>
+                            </div>
+                            <div class="product__image">
+                                <img src="/images/slide1.jpg" alt="Кресло “Антиква”">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar hero__slider-scrollbar"></div>
+                <div class="swiper-pagination hero__slider-pagination"></div>
             </div>
-            <a href="" class="hero-button">КУПИТЬ</a>
-            <!--</div> нужно или нет?-->
-            <img src="" alt="">
         </section>
 
         <section class="novelty">
-            <h3 class="novelty-title">НОВИНКИ</h3>
-            <ul class="novelty-list">
-                <li class="novelty-item">
-                    <a href="" class="novelty-link"> 
-                        <img src="" alt=""> 
-                        <h4 class="novelty-name">Стул «Смеркается»</h4>
-                        <p class="novelty-price">$280</p>
+            <h2 class="novelty__title">Новинки</h2>
+            <ul class="novelty__list">
+                <li class="novelty__item novelty__item--twilight">
+                    <a href="" class="novelty__link"> 
+                        <div class="product product--new">
+                            <div class="product__image">
+                                <img src="" alt=""> 
+                            </div>
+                            <h3>Стул «Смеркается»</h3>
+                            <p>$280</p>
+                        </div>
                      </a>
                 </li>
-                <li class="novelty-item">
+                <li class="novelty-item novelty__item--chandelier">
                     <a href="" class="novelty-link">
-                        <img src="" alt=""> 
-                        <h4 class="novelty-name">Люстра «Облако»</h4>
-                        <p class="novelty-price">$250</p>
+                        <div class="product product--new">
+                            <div class="product__image">
+                                <img src="" alt=""> 
+                            </div>
+                            <h3>Люстра «Облако»</h3>
+                            <p>$250</p>
+                        </div>
                      </a>
                 </li>
-                <li class="novelty-item">
+                <li class="novelty-item novelty__item--table">
                      <a href="" class="novelty-link">
-                        <img src="" alt=""> 
-                        <h4 class="novelty-name">Стол «Крем брюле»</h4>
-                        <p class="novelty-price">$320</p>
+                        <div class="product product--new">
+                            <div class="product_image">
+                                <img src="" alt=""> 
+                            </div>
+                            <h3>Стол «Крем брюле»</h3>
+                            <p>$320</p>
+                        </div>
                      </a>
                 </li>
-                <li class="novelty-item-lg">
+                <li class="novelty-item-lg novelty__item--big">
                     <a href="" class="novelty-link">
-                        <img src="" alt=""> 
-                        <h4 class="novelty-name">Стул офисный «Белый шоколад»</h4>
-                        <p class="novelty-price">$120</p>
+                        <div class="product product--new">
+                            <div class="product__image">
+                                <img src="" alt="">
+                            </div> 
+                            <h3>Стул офисный «Белый шоколад»</h3>
+                            <p>$120</p>
+                        </div>
                      </a>
                 </li>
             </ul>
